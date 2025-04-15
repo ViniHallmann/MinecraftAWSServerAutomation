@@ -1,0 +1,7 @@
+Cria servico: sudo nano /etc/systemd/system/servico.service
+
+Recarrega servicos: sudo systemctl daemon-reload
+
+Habilita servico: sudo systemctl enable servico.service
+
+Inicia novo serviço: sudo systemctl start servico.service
